@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  
   height: 40vmin;
 }
 
@@ -29,4 +29,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Show {
+  opacity: 1;
+  transition-duration: 1000ms;
+}
+
+.Hide {
+  opacity: 0.2;
+  transition-duration: 1000ms;  
 }
