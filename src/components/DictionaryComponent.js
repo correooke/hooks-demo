@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import EntryComponent from './EntryComponent';
-
-
-const url = "http://localhost:3001/traductor/single";
+import fetchTraductor from './../api/fetchTraductor';
 
 const DictionaryComponent = ({word}) => {
     const [entries, setEntries] = useState(null);
 
     useEffect( () => {
-        fetch(url).then(resp => resp.json()).then(data => {
-            data.results && setEntries(data.results[0].lexicalEntries[0].entries)
-        });
-    }, []);
+        if (word && word.length > 0) {
+            fetchTraductor(word).then(data => {
+                data.results && setEntries(data.results[0].lexicalEntries[0].entries)
+            });
+        }
+    }, [word]);
     return (
         <React.Fragment>
             <h1>Definición de {word}</h1>
