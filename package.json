@@ -1,15 +1,15 @@
 {
-  "name": "hooks-demo",
+  "name": "react-dictionary-hooks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.5.1",
     "@material-ui/icons": "^3.0.1",
-    "awesome-debounce-promise": "^1.0.0",
+    "awesome-debounce-promise": "^2.1.0",
     "concurrently": "^4.1.0",
-    "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2",
-    "react-scripts": "2.1.1"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "concurrently \"yarn start:client \" \"nodemon ./server/idioma/bin/www\"",
@@ -25,6 +25,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "flow-bin": "^0.86.0"
+    "flow-bin": "^0.97.0"
   }
 }

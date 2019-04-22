@@ -1,16 +1,27 @@
-import React, { Component } from 'react';
+// @flow 
+import * as React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
-import './App.css';
 import DictionaryComponent from './components/DictionaryComponent';
 import SearchComponent from './components/SearchComponent';
 import SearchContext from './contexts/SearchContext';
+import { SearchContextType } from './types/SearchContextType';
+import './App.css';
 
-class App extends Component {
+type Props = {
+  
+};
+
+type State = {
+  showIncrement: boolean,
+  searchContext: SearchContextType
+};
+
+class App extends React.Component<Props, State> {
   
   constructor() {
     super();
@@ -23,20 +34,17 @@ class App extends Component {
     };
   }
 
-  changeSearch = search => {
+  changeSearch = (search : string) => {
     const searchContext = { ...this.state.searchContext, search } ;
     this.setState({ searchContext });
-  }
-
-  onCheckShowIncrement = showIncrement => {
-    console.log(showIncrement);
-    this.setState({ showIncrement });
+    console.log(search);
   }
 
   render() {
+    const { searchContext } = this.state;
     return (
       <div className="App">
-        <SearchContext.Provider value={this.state.searchContext}>
+        <SearchContext.Provider value={searchContext}>
           <AppBar position="static">
             <Toolbar>
               <IconButton>
@@ -51,12 +59,7 @@ class App extends Component {
             </Toolbar>
           </AppBar>
           <SearchComponent />
-          <SearchContext.Consumer>
-            {
-              ({search}) => <DictionaryComponent word={search}></DictionaryComponent>
-            }
-          </SearchContext.Consumer>
-          
+          <DictionaryComponent word={undefined} />
         </SearchContext.Provider>
       </div>
     );

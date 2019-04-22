@@ -20,12 +20,14 @@ const SensesComponent = ({ senses } : Param ) => {
             {
                 senses && senses.map( (sense, i) => (
                     <React.Fragment key={sense.id} >
-                        <h3>Acepción {i}</h3>
+                        <h3>{i}. Acepción</h3>
                         {
                             sense.definitions && 
                                 <DefinitionComponent definitions={sense.definitions}/>
                         }      
-                        <h5>Ejemplos</h5>      
+                        {
+                            sense.examples && <strong>Ejemplos: </strong>
+                        }      
                         {
                             sense.examples && sense.examples.map( example => (
                                 <UseExampleComponent key={example.text} example={example} />

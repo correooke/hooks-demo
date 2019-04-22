@@ -12,9 +12,7 @@ type Param = {
 
 const UseExampleComponent = ({ example } : Param) => {
     return (
-        <div>
-            <p>{example.text}</p>
-        </div>
+        <span>{example.text}</span>
     );
 };
 
