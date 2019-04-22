@@ -59,7 +59,7 @@ class App extends React.Component<Props, State> {
             </Toolbar>
           </AppBar>
           <SearchComponent />
-          <DictionaryComponent word={undefined} />
+          <DictionaryComponent word={searchContext.search} />
         </SearchContext.Provider>
       </div>
     );
