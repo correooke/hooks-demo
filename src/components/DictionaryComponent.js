@@ -1,13 +1,8 @@
-/* @flow */
 import React, { useEffect, useState } from 'react';
 import EntryComponent from './EntryComponent';
 import fetchTraductor from './../api/fetchTraductor';
 
-type Param = {|
-    word: string
-|};
-
-const DictionaryComponent = ({word} : Param) => {
+const DictionaryComponent = ({word}) => {
     const [entries, setEntries] = useState(null);
     const [error, setError] = useState(false);
 

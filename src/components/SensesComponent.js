@@ -1,20 +1,8 @@
-/* @flow */
 import React from 'react';
 import DefinitionComponent from './DefinitionComponent';
 import UseExampleComponent, { Example } from './UseExampleComponent';
 
-
-export class Sense {
-    id: string;
-    definitions: ?Array<string>; 
-    examples: ?Array<Example>;
-}
-
-type Param = {
-    senses : ?Array<Sense>
-}
-
-const SensesComponent = ({ senses } : Param ) => {
+const SensesComponent = ({ senses }) => {
     return (
         <div>
             {

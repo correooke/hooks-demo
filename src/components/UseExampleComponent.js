@@ -1,16 +1,6 @@
-/* @flow */
 import React from 'react';
 
-
-export class Example {
-    text: string
-}
-
-type Param = {
-    example: Example
-}
-
-const UseExampleComponent = ({ example } : Param) => {
+const UseExampleComponent = ({ example }) => {
     return (
         <span>{example.text}</span>
     );

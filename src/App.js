@@ -1,5 +1,4 @@
-// @flow 
-import * as React from 'react';
+import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -9,19 +8,9 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import DictionaryComponent from './components/DictionaryComponent';
 import SearchComponent from './components/SearchComponent';
 import SearchContext from './contexts/SearchContext';
-import { SearchContextType } from './types/SearchContextType';
 import './App.css';
 
-type Props = {
-  
-};
-
-type State = {
-  showIncrement: boolean,
-  searchContext: SearchContextType
-};
-
-class App extends React.Component<Props, State> {
+class App extends React.Component {
   
   constructor() {
     super();
@@ -34,7 +23,7 @@ class App extends React.Component<Props, State> {
     };
   }
 
-  changeSearch = (search : string) => {
+  changeSearch = (search) => {
     const searchContext = { ...this.state.searchContext, search } ;
     this.setState({ searchContext });
     console.log(search);

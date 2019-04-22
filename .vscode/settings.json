@@ -1,11 +1,3 @@
 {
-    "javascript.implicitProjectConfig.checkJs": true,
-    "javascript.validate.enable": false,
-    "flow.useNPMPackagedFlow": true,
-    "flow.showUncovered": true,
-    "flow.pathToFlow": "${workspaceRoot}\\\\node_modules\\\\.bin\\\\flow",
-    "javascript.suggestionActions.enabled": false,
-    "eslint.enable": false,
-    "flowide.enable": true,
-    "flowide.pathToFlow": "${workspaceRoot}\\\\node_modules\\\\.bin\\\\flow"
+
 }

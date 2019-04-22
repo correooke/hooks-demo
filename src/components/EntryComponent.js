@@ -1,16 +1,7 @@
-/* @flow */
 import React from 'react';
-import SensesComponent, { Sense } from './SensesComponent';
+import SensesComponent from './SensesComponent';
 
-class Entry {
-    senses: Array<Sense>
-}
-
-type Param = {
-    entry: Entry
-}
-
-const EntryComponent = ({entry} : Param) => {
+const EntryComponent = ({entry}) => {
     return (
         <React.Fragment>
             {

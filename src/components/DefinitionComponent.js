@@ -1,11 +1,6 @@
-/* @flow */
 import React from 'react';
 
-type Param = {
-    definitions: Array<string>,
-};
-
-const DefinitionComponent = ({definitions} : Param) => {
+const DefinitionComponent = ({definitions}) => {
     return (
         <div>
             {
