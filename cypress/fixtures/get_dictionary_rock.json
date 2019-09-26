@@ -1,0 +1,564 @@
+{  
+    "metadata":{  
+       "provider":"Oxford University Press"
+    },
+    "results":[  
+       {  
+          "id":"rock",
+          "language":"en",
+          "lexicalEntries":[  
+             {  
+                "derivatives":[  
+                   {  
+                      "id":"rocklet",
+                      "text":"rocklet"
+                   },
+                   {  
+                      "id":"rockless",
+                      "text":"rockless"
+                   },
+                   {  
+                      "id":"rocklike",
+                      "text":"rocklike"
+                   }
+                ],
+                "entries":[  
+                   {  
+                      "etymologies":[  
+                         "Middle English: from Old French rocque, from medieval Latin rocca, of unknown ultimate origin"
+                      ],
+                      "grammaticalFeatures":[  
+                         {  
+                            "text":"Singular",
+                            "type":"Number"
+                         }
+                      ],
+                      "homographNumber":"100",
+                      "senses":[  
+                         {  
+                            "definitions":[  
+                               "Hola a todos forming part of the surface of the earth and other similar planets, exposed on the surface or underlying the soil or oceans."
+                            ],
+                            "domains":[  
+                               "Geology"
+                            ],
+                            "id":"m_en_gbus0878040.008",
+                            "short_definitions":[  
+                               "solid mineral material forming part of surface of earth and other similar planets"
+                            ],
+                            "subsenses":[  
+                               {  
+                                  "definitions":[  
+                                     "a mass of rock projecting above the earth's surface or out of the sea"
+                                  ],
+                                  "examples":[  
+                                     {  
+                                        "text":"there are dangerous rocks around the island"
+                                     }
+                                  ],
+                                  "id":"m_en_gbus0878040.010",
+                                  "short_definitions":[  
+                                     "mass of rock projecting above earth's surface or out of sea"
+                                  ],
+                                  "thesaurusLinks":[  
+                                     {  
+                                        "entry_id":"rock",
+                                        "sense_id":"t_en_gb0012695.002"
+                                     }
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "any natural material, hard or soft (e.g. clay), having a distinctive mineral composition."
+                                  ],
+                                  "domains":[  
+                                     "Geology"
+                                  ],
+                                  "id":"m_en_gbus0878040.013",
+                                  "short_definitions":[  
+                                     "any natural material, hard or soft"
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "Gibraltar."
+                                  ],
+                                  "id":"m_en_gbus0878040.014",
+                                  "notes":[  
+                                     {  
+                                        "text":"\"the Rock\"",
+                                        "type":"wordFormNote"
+                                     }
+                                  ],
+                                  "short_definitions":[  
+                                     "informal name for Gibraltar"
+                                  ]
+                               },
+                               {  
+                                  "crossReferenceMarkers":[  
+                                     "a name for Newfoundland"
+                                  ],
+                                  "crossReferences":[  
+                                     {  
+                                        "id":"newfoundland",
+                                        "text":"Newfoundland",
+                                        "type":"see also"
+                                     }
+                                  ],
+                                  "id":"m_en_gbus0878040.016",
+                                  "notes":[  
+                                     {  
+                                        "text":"\"the Rock\"",
+                                        "type":"wordFormNote"
+                                     }
+                                  ],
+                                  "regions":[  
+                                     "Canadian"
+                                  ],
+                                  "registers":[  
+                                     "informal"
+                                  ],
+                                  "short_definitions":[  
+                                     "informal name for Newfoundland"
+                                  ]
+                               }
+                            ]
+                         },
+                         {  
+                            "definitions":[  
+                               "a large piece of rock which has become detached from a cliff or mountain; a boulder"
+                            ],
+                            "examples":[  
+                               {  
+                                  "text":"the stream flowed through a jumble of rocks"
+                               }
+                            ],
+                            "id":"m_en_gbus0878040.019",
+                            "short_definitions":[  
+                               "large piece of rock which has become detached from cliff"
+                            ],
+                            "subsenses":[  
+                               {  
+                                  "definitions":[  
+                                     "a stone of any size, especially one small enough to be picked up and used as a projectile."
+                                  ],
+                                  "id":"m_en_gbus0878040.020",
+                                  "regions":[  
+                                     "North American"
+                                  ],
+                                  "short_definitions":[  
+                                     "stone of any size"
+                                  ],
+                                  "thesaurusLinks":[  
+                                     {  
+                                        "entry_id":"rock",
+                                        "sense_id":"t_en_gb0012695.001"
+                                     }
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "a kind of hard confectionery in the form of cylindrical peppermint-flavored sticks."
+                                  ],
+                                  "domains":[  
+                                     "Sweet"
+                                  ],
+                                  "id":"m_en_gbus0878040.021",
+                                  "regions":[  
+                                     "British"
+                                  ],
+                                  "short_definitions":[  
+                                     "kind of hard confectionery in form of cylindrical peppermint-flavoured sticks"
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "a precious stone, especially a diamond."
+                                  ],
+                                  "domains":[  
+                                     "Jewellery"
+                                  ],
+                                  "id":"m_en_gbus0878040.022",
+                                  "registers":[  
+                                     "informal"
+                                  ],
+                                  "short_definitions":[  
+                                     "precious stone"
+                                  ],
+                                  "thesaurusLinks":[  
+                                     {  
+                                        "entry_id":"rock",
+                                        "sense_id":"t_en_gb0012695.004"
+                                     }
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "a small piece of crack cocaine."
+                                  ],
+                                  "domains":[  
+                                     "Narcotics"
+                                  ],
+                                  "id":"m_en_gbus0878040.023",
+                                  "registers":[  
+                                     "informal"
+                                  ],
+                                  "short_definitions":[  
+                                     "small piece of crack cocaine"
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "testicles."
+                                  ],
+                                  "id":"m_en_gbus0878040.024",
+                                  "notes":[  
+                                     {  
+                                        "text":"\"rocks\"",
+                                        "type":"wordFormNote"
+                                     }
+                                  ],
+                                  "registers":[  
+                                     "vulgar slang"
+                                  ],
+                                  "short_definitions":[  
+                                     "man's testicles"
+                                  ]
+                               }
+                            ]
+                         },
+                         {  
+                            "definitions":[  
+                               "used to refer to someone or something that is extremely strong, reliable, or hard"
+                            ],
+                            "examples":[  
+                               {  
+                                  "text":"imagining himself as the last rock of civilization being swept over by a wave of barbarism"
+                               }
+                            ],
+                            "id":"m_en_gbus0878040.027",
+                            "short_definitions":[  
+                               "used to refer to person or thing that is extremely strong or hard"
+                            ],
+                            "subsenses":[  
+                               {  
+                                  "definitions":[  
+                                     "(especially with allusion to shipwrecks) a source of danger or destruction"
+                                  ],
+                                  "examples":[  
+                                     {  
+                                        "text":"the new system is heading for the rocks"
+                                     }
+                                  ],
+                                  "id":"m_en_gbus0878040.028",
+                                  "notes":[  
+                                     {  
+                                        "text":"usually \"rocks\"",
+                                        "type":"wordFormNote"
+                                     }
+                                  ],
+                                  "short_definitions":[  
+                                     "source of danger or destruction"
+                                  ],
+                                  "thesaurusLinks":[  
+                                     {  
+                                        "entry_id":"on_the_rocks",
+                                        "sense_id":"t_en_gb0012695.006"
+                                     }
+                                  ]
+                               }
+                            ],
+                            "thesaurusLinks":[  
+                               {  
+                                  "entry_id":"rock",
+                                  "sense_id":"t_en_gb0012695.003"
+                               }
+                            ]
+                         },
+                         {  
+                            "definitions":[  
+                               "money."
+                            ],
+                            "id":"m_en_gbus0878040.030",
+                            "notes":[  
+                               {  
+                                  "text":"\"rocks\"",
+                                  "type":"wordFormNote"
+                               }
+                            ],
+                            "regions":[  
+                               "US"
+                            ],
+                            "registers":[  
+                               "informal",
+                               "dated"
+                            ],
+                            "short_definitions":[  
+                               "money"
+                            ]
+                         }
+                      ]
+                   },
+                   {  
+                      "grammaticalFeatures":[  
+                         {  
+                            "text":"Singular",
+                            "type":"Number"
+                         }
+                      ],
+                      "homographNumber":"201",
+                      "senses":[  
+                         {  
+                            "definitions":[  
+                               "rock music"
+                            ],
+                            "domains":[  
+                               "Popular Music"
+                            ],
+                            "examples":[  
+                               {  
+                                  "text":"a rock star"
+                               }
+                            ],
+                            "id":"m_en_gbus0878050.023",
+                            "short_definitions":[  
+                               "rock music"
+                            ],
+                            "subsenses":[  
+                               {  
+                                  "definitions":[  
+                                     "rock and roll."
+                                  ],
+                                  "domains":[  
+                                     "Popular Music"
+                                  ],
+                                  "id":"m_en_gbus0878050.025",
+                                  "short_definitions":[  
+                                     "rock and roll"
+                                  ]
+                               }
+                            ]
+                         },
+                         {  
+                            "definitions":[  
+                               "a gentle movement to and fro or from side to side"
+                            ],
+                            "examples":[  
+                               {  
+                                  "text":"she placed the baby in the cradle and gave it a rock"
+                               }
+                            ],
+                            "id":"m_en_gbus0878050.027",
+                            "notes":[  
+                               {  
+                                  "text":"in singular",
+                                  "type":"grammaticalNote"
+                               }
+                            ],
+                            "short_definitions":[  
+                               "gentle movement to and fro or from side"
+                            ]
+                         }
+                      ]
+                   }
+                ],
+                "language":"en",
+                "lexicalCategory":"Noun",
+                "pronunciations":[  
+                   {  
+                      "audioFile":"http://audio.oxforddictionaries.com/en/mp3/rock_us_1.mp3",
+                      "dialects":[  
+                         "American English"
+                      ],
+                      "phoneticNotation":"IPA",
+                      "phoneticSpelling":"rɑk"
+                   },
+                   {  
+                      "dialects":[  
+                         "American English"
+                      ],
+                      "phoneticNotation":"respell",
+                      "phoneticSpelling":"räk"
+                   }
+                ],
+                "text":"rock"
+             },
+             {  
+                "entries":[  
+                   {  
+                      "etymologies":[  
+                         "late Old English roccian, probably from a Germanic base meaning ‘remove, move’; related to Dutch rukken ‘jerk, tug’ and German rücken ‘move’. The noun dates from the early 19th century"
+                      ],
+                      "grammaticalFeatures":[  
+                         {  
+                            "text":"Present",
+                            "type":"Tense"
+                         }
+                      ],
+                      "homographNumber":"200",
+                      "senses":[  
+                         {  
+                            "definitions":[  
+                               "move gently to and fro or from side to side"
+                            ],
+                            "examples":[  
+                               {  
+                                  "text":"the vase rocked back and forth on its base"
+                               },
+                               {  
+                                  "text":"she rocked the baby in her arms"
+                               }
+                            ],
+                            "id":"m_en_gbus0878050.006",
+                            "short_definitions":[  
+                               "move gently to and fro or from side to side"
+                            ],
+                            "subsenses":[  
+                               {  
+                                  "definitions":[  
+                                     "(with reference to a building or region) shake or cause to shake or vibrate, especially because of an impact, earthquake, or explosion"
+                                  ],
+                                  "examples":[  
+                                     {  
+                                        "text":"another blast rocked the ship and threw him from his chair"
+                                     },
+                                     {  
+                                        "text":"the building began to rock on its foundations"
+                                     }
+                                  ],
+                                  "id":"m_en_gbus0878050.013",
+                                  "short_definitions":[  
+                                     "shake"
+                                  ],
+                                  "thesaurusLinks":[  
+                                     {  
+                                        "entry_id":"rock",
+                                        "sense_id":"t_en_gb0012694.002"
+                                     }
+                                  ]
+                               },
+                               {  
+                                  "definitions":[  
+                                     "cause great shock or distress to (someone or something), especially so as to weaken or destabilize them or it"
+                                  ],
+                                  "examples":[  
+                                     {  
+                                        "text":"diplomatic upheavals that rocked the British Empire"
+                                     }
+                                  ],
+                                  "id":"m_en_gbus0878050.014",
+                                  "notes":[  
+                                     {  
+                                        "text":"with object",
+                                        "type":"grammaticalNote"
+                                     }
+                                  ],
+                                  "short_definitions":[  
+                                     "cause great shock or distress to person or thing"
+                                  ],
+                                  "thesaurusLinks":[  
+                                     {  
+                                        "entry_id":"rock",
+                                        "sense_id":"t_en_gb0012694.003"
+                                     }
+                                  ]
+                               }
+                            ],
+                            "thesaurusLinks":[  
+                               {  
+                                  "entry_id":"rock",
+                                  "sense_id":"t_en_gb0012694.001"
+                               }
+                            ]
+                         },
+                         {  
+                            "definitions":[  
+                               "dance to or play rock music."
+                            ],
+                            "domains":[  
+                               "Dance",
+                               "Popular Music"
+                            ],
+                            "id":"m_en_gbus0878050.016",
+                            "notes":[  
+                               {  
+                                  "text":"no object",
+                                  "type":"grammaticalNote"
+                               }
+                            ],
+                            "registers":[  
+                               "informal"
+                            ],
+                            "short_definitions":[  
+                               "dance to or play rock music"
+                            ],
+                            "subsenses":[  
+                               {  
+                                  "definitions":[  
+                                     "(of a place) have an atmosphere of excitement or much social activity"
+                                  ],
+                                  "examples":[  
+                                     {  
+                                        "text":"the new town really rocks"
+                                     }
+                                  ],
+                                  "id":"m_en_gbus0878050.017",
+                                  "short_definitions":[  
+                                     "be exciting or full of social activity"
+                                  ]
+                               }
+                            ]
+                         },
+                         {  
+                            "definitions":[  
+                               "wear (a garment) or affect (an attitude or style), especially in a confident or flamboyant way"
+                            ],
+                            "examples":[  
+                               {  
+                                  "text":"she was rocking a clingy little leopard-skin number"
+                               }
+                            ],
+                            "id":"m_en_gbus0878050.020",
+                            "notes":[  
+                               {  
+                                  "text":"with object",
+                                  "type":"grammaticalNote"
+                               }
+                            ],
+                            "registers":[  
+                               "informal"
+                            ],
+                            "short_definitions":[  
+                               "wear garment or affect attitude"
+                            ]
+                         }
+                      ]
+                   }
+                ],
+                "language":"en",
+                "lexicalCategory":"Verb",
+                "pronunciations":[  
+                   {  
+                      "audioFile":"http://audio.oxforddictionaries.com/en/mp3/rock_us_1.mp3",
+                      "dialects":[  
+                         "American English"
+                      ],
+                      "phoneticNotation":"IPA",
+                      "phoneticSpelling":"rɑk"
+                   },
+                   {  
+                      "dialects":[  
+                         "American English"
+                      ],
+                      "phoneticNotation":"respell",
+                      "phoneticSpelling":"räk"
+                   }
+                ],
+                "text":"rock"
+             }
+          ],
+          "type":"headword",
+          "word":"rock"
+       }
+    ]
+ }

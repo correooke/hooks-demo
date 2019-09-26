@@ -10,6 +10,7 @@ const SearchComponent = () => {
             {
                 ({changeSearch}) => (
                     <TextField 
+                        className="search-field"
                         label={'Búsqueda'} 
                         value={search} 
                         onChange={event => {

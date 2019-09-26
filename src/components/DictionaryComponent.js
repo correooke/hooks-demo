@@ -15,7 +15,9 @@ const DictionaryComponent = ({word} : Param) => {
         if (word && word.length > 0) {
             fetchTraductor(word)
             .then(data => {
-                data.results && setEntries(data.results[0].lexicalEntries[0].entries)
+                const entries = data.results[0].lexicalEntries[0].entries;
+                console.log(entries)
+                data.results && setEntries(entries)
             })
             .catch(() => {
                 setError(true);

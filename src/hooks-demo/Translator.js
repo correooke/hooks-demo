@@ -1,5 +1,6 @@
 /* @flow */
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 
 const url = "http://localhost:3001/traductor/single";
@@ -10,7 +11,7 @@ const Translator = () => {
 
     useEffect(() => {
         console.log("useEffect")
-        fetch(url).then(data => data.json()).then(data => {
+        axios(url).then(data => {
             setResult(JSON.stringify(data));
             console.log(data);
         });
